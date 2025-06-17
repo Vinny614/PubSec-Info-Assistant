@@ -214,18 +214,18 @@ variable "chatGptDeploymentName" {
 
 variable "chatGptModelName" {
   type    = string
-  default = "gpt-4"
+  default = "gpt-4.1"
 }
 
 variable "chatGptModelSkuName" {
   type    = string
-  default = "Standard"
+  default = "Global Standard"
   
 }
 
 variable "chatGptModelVersion" {
   type    = string
-  default = "0125-Preview"
+  default = "2025-04-14"
 }
 
 variable "chatGptDeploymentCapacity" {
