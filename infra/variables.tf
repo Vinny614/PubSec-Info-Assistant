@@ -219,8 +219,7 @@ variable "chatGptModelName" {
 
 variable "chatGptModelSkuName" {
   type    = string
-  default = "Global Standard"
-  
+  default = "GlobalStandard"
 }
 
 variable "chatGptModelVersion" {
