@@ -249,7 +249,7 @@ variable "azureOpenAIEmbeddingsModelVersion" {
 
 variable "azureOpenAIEmbeddingsModelSku" {
   type    = string
-  default = "Standard"
+  default = "GlobalStandard"
 }
 
 variable "useAzureOpenAIEmbeddings" {
