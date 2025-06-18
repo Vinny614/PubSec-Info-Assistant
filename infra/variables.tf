@@ -209,7 +209,7 @@ variable "openAiSkuName" {
 
 variable "chatGptDeploymentName" {
   type    = string
-  default = "gpt-4"
+  default = "gpt-4.1"
 }
 
 variable "chatGptModelName" {
